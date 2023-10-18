@@ -163,10 +163,11 @@ body {
 }
 
 #page2right {
+    overflow: hidden;
     width: 45%;
 }
 
-#page2right img {
+#page2right svg {
     margin-top: 5vw;
     width: 100%;
     object-fit: contain;
@@ -651,8 +652,6 @@ h1 {
     font-weight: 200;
 }
 
-
-
 @media (max-width:600px) {
 
     #cursor{
@@ -709,12 +708,13 @@ h1 {
 
     #page2right {
         width: 100%;
+        height: 60vh;
     }
 
-    #page2right img {
-        margin-top: 10vw;
+    #page2right svg {
+        margin-top: -15vw;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     #page3 {
