@@ -78,6 +78,7 @@ function loadingAnimation() {
         duration: 1.3,
         stagger: 0.5
     })
+
 }
 
 loadingAnimation()
