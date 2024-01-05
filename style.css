@@ -559,7 +559,7 @@ h1 {
 .msnrt {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 3vw;
     border-radius: 1.5vw;
     width: 60vw;
